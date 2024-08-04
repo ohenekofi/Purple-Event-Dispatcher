@@ -1,0 +1,21 @@
+{
+    "name": "purpleharmonie/event-system",
+    "description": "Purpleharmonie Event System is a flexible and powerful event dispatching library for PHP applications. It provides a robust implementation of the PSR-14 Event Dispatcher standard, along with additional features for advanced use cases.",
+    "type": "library",
+    "require": {
+        "psr/event-dispatcher": "^1.0",
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Purpleharmonie\\EventSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ohenekofi",
+            "email": "kobbengh@gmail.com"
+        }
+    ]
+}
